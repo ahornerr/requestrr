@@ -3,6 +3,7 @@
     public class SonarrSettings
     {
         public string Hostname { get; set; }
+        public string Path { get; set; }
         public int Port { get; set; }
         public string ApiKey { get; set; }
         public int TvProfileId { get; set; }

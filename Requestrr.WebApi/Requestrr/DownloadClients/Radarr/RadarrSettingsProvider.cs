@@ -9,6 +9,7 @@
             return new RadarrSettings
             {
                 Hostname = settings.DownloadClients.Radarr.Hostname,
+                Path = settings.DownloadClients.Radarr.Path,
                 Port = (int)settings.DownloadClients.Radarr.Port,
                 ApiKey = settings.DownloadClients.Radarr.ApiKey,
                 MovieProfileId = (int)settings.DownloadClients.Radarr.MovieProfileId,

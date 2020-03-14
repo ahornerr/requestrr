@@ -9,6 +9,7 @@
             return new SonarrSettings
             {
                 Hostname = settings.DownloadClients.Sonarr.Hostname,
+                Path = settings.DownloadClients.Sonarr.Path,
                 Port = (int)settings.DownloadClients.Sonarr.Port,
                 ApiKey = settings.DownloadClients.Sonarr.ApiKey,
                 TvProfileId = settings.DownloadClients.Sonarr.TvProfileId,
